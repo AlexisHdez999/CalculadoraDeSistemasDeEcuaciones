@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="verticalBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplicacion.Calculadora.Controller">
+   <children>
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="492.0" text="Escriba aquí los coeficientes y los resultados de sus ecuaciones">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea1" prefHeight="200.0" prefWidth="556.0" promptText="Separe cada valor con un espacio">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" />
+         </VBox.margin>
+      </TextArea>
+      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="200.0" spacing="40.0">
+         <children>
+            <Button fx:id="botonCalcular" mnemonicParsing="false" onAction="#calcular" text="Calcular solución">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="botonBorrar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#borrar" text="Borrar">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="labelResultados" text="Resultados" />
+   </children>
+</VBox>
