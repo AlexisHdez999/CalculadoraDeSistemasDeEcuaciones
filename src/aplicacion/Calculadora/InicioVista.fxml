@@ -12,7 +12,7 @@
             <Font name="Franklin Gothic Medium" size="22.0" />
          </font>
       </Label>
-      <Label text="Indique el número de ecuaciones del sistema">
+      <Label text="Indique el número de ecuaciones del sistemas, máx 7">
          <font>
             <Font size="18.0" />
          </font>

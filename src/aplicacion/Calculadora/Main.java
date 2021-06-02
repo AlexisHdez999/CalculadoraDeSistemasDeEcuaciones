@@ -7,8 +7,16 @@ import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * clase principal para arrancar la aplicación
+ */
 public class Main extends Application {
 
+    /**
+     * Metodo de inicio de la aplicaición
+     * @param primaryStage
+     * @throws Exception
+     */
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("InicioVista.fxml")) ;
@@ -20,7 +28,10 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+    /**
+     * metodo main
+     * @param args
+     */
     public static void main(String[] args) {
         launch(args);
     }
