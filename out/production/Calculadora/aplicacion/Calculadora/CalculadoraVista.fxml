@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox fx:id="verticalBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplicacion.Calculadora.CalculadoraVistaController">
+<VBox fx:id="verticalBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplicacion.Calculadora.CalculadoraVistaController">
    <children>
       <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="492.0" text="Escriba aquí los coeficientes y los resultados de sus ecuaciones">
          <font>
